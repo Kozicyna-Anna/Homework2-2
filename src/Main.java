@@ -5,7 +5,9 @@ public class Main {
         harry.compare(ron);
 
         Slytherin drako = new Slytherin("Drako Malfoy", 33, 9, 45, 20, 12, 28, 18);
-
         harry.compare(drako);
+
+        System.out.println(harry.description());
+        ron.print();
     }
 }

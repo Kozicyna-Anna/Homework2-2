@@ -19,10 +19,10 @@ public class Hogwarts {
         return transgressionDistance;
     }
     public String description() {
-        return "Имя: " + name + ", сила магии: " + magicPower + ", сила трансгрессирования:";
+        return "Имя: " + name + ", сила магии: " + magicPower + " сила трансгрессирования: " + transgressionDistance;
     }
     public  void print() {
-        System.out.println("Имя: " + name + ", сила магии: " + magicPower + " сила трансгрессирования");
+        System.out.println("Имя: " + name + ", сила магии: " + magicPower + " сила трансгрессирования " + transgressionDistance);
     }
     public int sum() {
         return magicPower + transgressionDistance;
